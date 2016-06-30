@@ -31,6 +31,11 @@
 		<property name="hibernate.generate_statistics">
 			true
 		</property>
+		<property name="hibernate.cache.region.factory_class">
+			org.hibernate.cache.ehcache.EhCacheRegionFactory
+		</property>
 		<mapping class="com.ttnd.HibernateCaching.entities.User" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Publisher" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Book" />
 	</session-factory>
 </hibernate-configuration>
