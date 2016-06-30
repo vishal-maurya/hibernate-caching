@@ -35,5 +35,7 @@
 			org.hibernate.cache.ehcache.EhCacheRegionFactory
 		</property>
 		<mapping class="com.ttnd.HibernateCaching.entities.User" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Publisher" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Book" />
 	</session-factory>
 </hibernate-configuration>

@@ -17,8 +17,6 @@ public class HibernateCachingFirstLevel {
 		
 		session.beginTransaction();
 
-		/*Long id = (Long) session.save(employee);
-		employee.setId(id);*/
 		/*
 		 * Creating First User
 		 */
