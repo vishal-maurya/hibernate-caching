@@ -34,8 +34,13 @@
 		<property name="hibernate.cache.region.factory_class">
 			org.hibernate.cache.ehcache.EhCacheRegionFactory
 		</property>
+		<property name="hibernate.cache.use_query_cache">
+			true
+		</property>
 		<mapping class="com.ttnd.HibernateCaching.entities.User" />
 		<mapping class="com.ttnd.HibernateCaching.entities.Publisher" />
 		<mapping class="com.ttnd.HibernateCaching.entities.Book" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Book2" />
+		<mapping class="com.ttnd.HibernateCaching.entities.Chapter" />
 	</session-factory>
 </hibernate-configuration>
